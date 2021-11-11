@@ -1,5 +1,34 @@
 # polls-api
-api for poll system
+
+installation
+
+for installation you need to install postgre sql database
+
+1) create a virtual enviroment
+
+virtualenv env
+
+2) activate 
+
+source env/bin/activate
+
+3) installing packages
+
+pip install django==2.2.10 psycopg2-binary==2.8.6 djangorestframework
+
+4) create project
+
+django-admin startproject poles
+
+5) copied directories 'poles' and 'poles_app' in project
+
+6) make migrations and create superuser
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+#api for poll system
 
 
 administration
